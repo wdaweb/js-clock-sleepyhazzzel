@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>楊淨的clock</title>
+    <link rel="stylesheet" href="clock-style.css">
+</head>
+
+<body>
+    <div class="container">
+        <i style="--clr:#42abff;--i:20px;--d:4s"></i>
+        <i style="--clr:#6bc33c;--i:30px;--d:6s"></i>
+        <i style="--clr:#ff6296;--i:20px;--d:8s"></i>
+        <i style="--clr:#ffeb3b;--i:10px;--d:10s"></i>
+        <div class="circle">
+            <div id="red"></div>
+            <!-- <div class="spike"></div> -->
+            <div class="date">
+                <p id="yy"></p>
+                <p>/</p>
+                <p id="mm"></p>
+                <p>/</p>
+                <p id="dd"></p>
+                &nbsp;&nbsp;&nbsp;
+                <p id="weekday"></p>
+            </div>
+            <div class="time">
+                <p id="hr"></p>
+                <p>:</p>
+                <p id="min"></p>
+                <p id="sec"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- myscript -->
+    <script src="./clock.js"></script>
+</body>
+
+</html>
